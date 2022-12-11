@@ -1,4 +1,4 @@
 # Generic Variables
 aws_region = "ap-south-a"  
 environment = "PROD"
-business_divsion = "AKRIVIA"
+business_divsion = "Netflix"

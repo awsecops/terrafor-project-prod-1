@@ -2,7 +2,7 @@
 
 # VPC Name
 variable "vpc_name" {
-  description = "Akrivia-prod"
+  description = "Netflix-prod"
   type = string 
   default = "VPC"
 }
