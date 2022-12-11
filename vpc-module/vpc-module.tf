@@ -26,20 +26,7 @@ module "vpc" {
   enable_dns_support   = true
 
   
-  tags = local.common_tags
-  vpc_tags = local.common_tags
 
-  # Additional Tags to Subnets
-  public_subnet_tags = {
-    Type = "Public Subnets"
-    "kubernetes.io/role/elb" = 1    
-    "kubernetes.io/cluster/${local.eks_cluster_name}" = "shared"        
-  }
-  private_subnet_tags = {
-    Type = "private-subnets"
-    "kubernetes.io/role/internal-elb" = 1    
-    "kubernetes.io/cluster/${local.eks_cluster_name}" = "shared"    
-  }
 
   
 }
