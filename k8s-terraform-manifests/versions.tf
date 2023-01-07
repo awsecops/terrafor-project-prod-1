@@ -14,7 +14,7 @@ terraform {
 
   # Adding Backend as S3 for Remote State Storage
   backend "s3" {
-    bucket = "terraform-on-aws-ekss"
+    bucket = "terraform-eks-netflixs"
     key    = "prod/app1k8s/terraform.tfstate"
     region = "ap-south-1" 
 
