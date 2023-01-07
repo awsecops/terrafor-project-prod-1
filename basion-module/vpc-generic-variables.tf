@@ -3,7 +3,7 @@
 variable "aws_region" {
   description = "created in mumbai region"
   type = string
-  default = "ap-south-1"  
+  default = "us-east-1"  
 }
 # Environment Variable
 variable "environment" {

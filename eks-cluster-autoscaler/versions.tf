@@ -25,7 +25,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-eks-netflixs"
     key    = "prod/eks-cluster-autoscaler/terraform.tfstate"
-    region = "ap-south-1" 
+    region = "us-east-1" 
 
     # For State Locking
     dynamodb_table = "prod-eks-cluster-autoscaler"    

@@ -13,6 +13,6 @@ data "terraform_remote_state" "eks" {
   config = {
     bucket = "terraform-eks-netflixs"
     key    = "prod/eks-cluster/terraform.tfstate"
-    region = "ap-south-1" 
+    region = "us-east-1" 
   }
 }
